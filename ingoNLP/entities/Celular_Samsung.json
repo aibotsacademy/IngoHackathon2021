@@ -1,0 +1,23 @@
+{
+    "name": "Celular_Samsung",
+    "roles": [
+        "Celular_Samsung"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "samsung",
+            "synonyms": [
+                "cel samsung",
+                "celular samsung",
+                "samsung",
+                "sangsun",
+                "zamsung",
+                "zamzung"
+            ]
+        }
+    ]
+}
