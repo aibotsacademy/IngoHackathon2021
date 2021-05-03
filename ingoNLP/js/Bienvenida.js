@@ -2,8 +2,6 @@ var fetch = require('node-fetch');
 var config = require('./config');
 var FB = require('./facebook.action');
 
-console.log("+++ Setting up Welcome Message +++");
-
 const endpoint = "https://graph.facebook.com/v2.6/";
 const params = "/thread_settings?access_token=";
 
@@ -27,20 +25,6 @@ fetch(finalurl, {
 
 function generatePostContent() {
 
-    /* Text only
-     return {
-     "setting_type": "call_to_actions",
-     "thread_state": "new_thread",
-     "call_to_actions": [
-     {
-     "message": {
-     "text": "Welcome to my Bot!"
-     }
-     }
-     ]
-     };
-     */
-
     return {
         "setting_type": "call_to_actions",
         "thread_state": "new_thread",
@@ -53,11 +37,18 @@ function generatePostContent() {
                             "template_type": "generic",
                             "elements": [
                                 FB.generatePayloadElement(
-                                    "Welcome to my Bot",
+                                    "🤖  Hola, te saluda la asistente virtual de INGO, proyecto desarrollado para el Mastermind Hackathon 2021 y su Reto de Búsqueda Fonética.
+
+                                        🔍 Digite directamente su búsqueda de un producto similarmente fonético a:
+                                        -Tenis Nike 
+                                        -Licuadora Kitchenair
+                                        -Bicicleta Forever
+                                        -Avengers 
+                                        -Dragon Ball Funka Pop.",
                                     null,
                                     null,
                                     null,
-                                    FB.generateActionButton("Say something funny", "CTA_SAY_FUNNY")
+                                    FB.generateActionButton("Fui entrenada en", "Búsquedas")
                                 )
                             ]
                         }
