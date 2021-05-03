@@ -1,0 +1,94 @@
+{
+    "utterances": [
+        {
+            "text": "Celular samsung",
+            "entities": [
+                {
+                    "entity": "Celular_Samsung:Celular_Samsung",
+                    "start": 8,
+                    "end": 15,
+                    "body": "samsung",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "Cuanto es el precio de las tenis Nike",
+            "entities": [
+                {
+                    "entity": "Tenis_Nike:Tenis_Nike",
+                    "start": 33,
+                    "end": 37,
+                    "body": "Nike",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "Ver Bicis Forever",
+            "entities": [
+                {
+                    "entity": "Bicis_Forever:Bicis_Forever",
+                    "start": 10,
+                    "end": 17,
+                    "body": "Forever",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "avengers",
+            "entities": [
+                {
+                    "entity": "Avengers:Avengers",
+                    "start": 0,
+                    "end": 8,
+                    "body": "avengers",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "cual es el precio de las Licuadora Kitchenair",
+            "entities": [
+                {
+                    "entity": "Marca_Kitchenair:Marca_Kitchenair",
+                    "start": 25,
+                    "end": 45,
+                    "body": "Licuadora Kitchenair",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "dragon ball",
+            "entities": [
+                {
+                    "entity": "Dragon_Ball:Dragon_Ball",
+                    "start": 0,
+                    "end": 12,
+                    "body": "dragon ball",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "consultas"
+        },
+        {
+            "text": "ver niky",
+            "entities": [],
+            "traits": [],
+            "intent": "consultas"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip ingohackathon.zip ingohackathon\/app.json ingohackathon\/entities\/*.json ingohackathon\/intents\/*.json ingohackathon\/traits\/*.json ingohackathon\/utterances\/*.json",
+    "name": "ingohackathon",
+    "lang": "es",
+    "timezone": "America\/Costa_Rica"
+}

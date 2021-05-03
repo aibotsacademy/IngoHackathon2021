@@ -1,0 +1,23 @@
+{
+    "name": "Bicis_Forever",
+    "roles": [
+        "Bicis_Forever"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Forever",
+            "synonyms": [
+                "4ever",
+                "bicis forever",
+                "forever",
+                "fueversh",
+                "fureber",
+                "furever"
+            ]
+        }
+    ]
+}

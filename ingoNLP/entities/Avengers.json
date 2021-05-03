@@ -1,0 +1,20 @@
+{
+    "name": "Avengers",
+    "roles": [
+        "Avengers"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "avengers",
+            "synonyms": [
+                "abengers",
+                "avengers",
+                "avengues"
+            ]
+        }
+    ]
+}

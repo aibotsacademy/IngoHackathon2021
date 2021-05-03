@@ -1,0 +1,31 @@
+{
+    "name": "Tenis_Nike",
+    "roles": [
+        "Tenis_Nike"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Nike",
+            "synonyms": [
+                "naic",
+                "naik",
+                "nik",
+                "nike",
+                "niky"
+            ]
+        },
+        {
+            "keyword": "Nike Air Force",
+            "synonyms": [
+                "Nike Air Force",
+                "airforce",
+                "naic airforce",
+                "niky airforce"
+            ]
+        }
+    ]
+}

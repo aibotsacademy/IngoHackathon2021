@@ -1,0 +1,20 @@
+{
+    "name": "Dragon_Ball",
+    "roles": [
+        "Dragon_Ball"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "dragon ball",
+            "synonyms": [
+                "dragon ball",
+                "dragon ball funko pop",
+                "dragon boll funke pap"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Marca_Kitchenair",
+    "roles": [
+        "Marca_Kitchenair"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Licuadora Kitchenair",
+            "synonyms": [
+                "kishenaid",
+                "kishenair",
+                "kitchenaid",
+                "kitchenair",
+                "licuadoras kitchenair",
+                "qishenai",
+                "queenshener",
+                "quishener"
+            ]
+        }
+    ]
+}

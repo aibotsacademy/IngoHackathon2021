@@ -1,0 +1,11 @@
+{
+    "name": "consultas",
+    "entities": [
+        "Avengers:Avengers",
+        "Bicis_Forever:Bicis_Forever",
+        "Celular_Samsung:Celular_Samsung",
+        "Dragon_Ball:Dragon_Ball",
+        "Marca_Kitchenair:Marca_Kitchenair",
+        "Tenis_Nike:Tenis_Nike"
+    ]
+}

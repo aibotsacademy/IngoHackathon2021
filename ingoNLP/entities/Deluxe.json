@@ -1,0 +1,19 @@
+{
+    "name": "Deluxe",
+    "roles": [
+        "Deluxe"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Deluxe",
+            "synonyms": [
+                "Deluxe",
+                "deluse"
+            ]
+        }
+    ]
+}

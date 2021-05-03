@@ -1,0 +1,22 @@
+{
+    "name": "Tenis_Converse",
+    "roles": [
+        "Tenis_Converse"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Converse",
+            "synonyms": [
+                "Converse",
+                "conbers",
+                "conserv",
+                "las converse",
+                "unas converse"
+            ]
+        }
+    ]
+}
