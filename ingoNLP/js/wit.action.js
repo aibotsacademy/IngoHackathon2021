@@ -7,8 +7,6 @@ module.exports = {
     say(recipientId, context, message, cb) {
 
         if (recipientId) {
-            // Yay, we found our recipient!
-            // Let's forward our bot response to her.
             FB.sendText(recipientId, message, (err, data) => {
                 if (err) {
                     console.log(
@@ -18,12 +16,11 @@ module.exports = {
                         err
                     );
                 }
-                // Let's give the wheel back to our bot
                 cb();
             });
         } else {
             console.log('Oops! Couldn\'t find user for session:', sessionId);
-            // Giving the wheel back to our bot
+            
             cb();
         }
     },
@@ -32,7 +29,6 @@ module.exports = {
 
         async.forEachOf(entities, (entity, key, cb) => {
             const value = firstEntityValue(entity);
-            //console.error("Result", key, value);
             if (value != null && (context[key] == null || context[key] != value)) {
 
                 switch (key) {
@@ -55,11 +51,8 @@ module.exports = {
     error(recipientId, context, error) {
         console.log(error.message);
     },
-
-    /**** Add your own functions HERE ******/
 };
 
-// Helper function to get the first message
 const firstEntityValue = (entity) => {
     const val = entity && Array.isArray(entity) &&
             entity.length > 0 &&
