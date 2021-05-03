@@ -1,7 +1,0 @@
-{
-    "name": "consultas",
-    "entities": [
-        "Marca_Kitchenair:Marca_Kitchenair",
-        "Tenis_Nike:Tenis_Nike"
-    ]
-}
